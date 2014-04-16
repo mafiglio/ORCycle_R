@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pdx.cycleor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <permission android:name = "edu.pdx.cycleor.permission.MAPS_RECEIVE"
+        android:protectionLevel = "signature" />   
+    <uses-permission android:name = "android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name = "android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name = "android.permission.INTERNET"/>
+    <uses-permission android:name = "edu.pdx.cycleor.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name= "com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name = "android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name = "android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:required = "true"
+        android:name = "android.hardware.location.gps"/>
+	<uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+    	<supports-screens
+		android:anyDensity="true"
+		android:normalScreens="true" />
+	
+	<application
+		android:theme="@style/AppTheme"
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name">
+		
+		<meta-data
+    		android:name="com.google.android.gms.version"
+    		android:value="@integer/google_play_services_version" />
+		
+		<activity
+			android:name="edu.pdx.cycleor.MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name="edu.pdx.cycleor.UserInfoActivity"
+			android:label="@string/edit_user_info"
+			android:windowSoftInputMode="adjustPan|adjustResize"/>
+		
+		<activity
+			android:name="edu.pdx.cycleor.RecordingActivity"
+			android:label="@string/activity_recording_title"/>
+		
+		<activity
+			android:name="edu.pdx.cycleor.SaveTripActivity"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="adjustPan|adjustResize"/>
+		
+		<activity
+			android:name="edu.pdx.cycleor.ShowMap"
+			android:label="@string/app_name"/>
+		
+		<service
+			android:name="edu.pdx.cycleor.RecordingService"
+			android:enabled="true"
+			android:exported="true" />
+		
+		<meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyAvDBBTfWuKoWX2y-z4Ww63sroH5KUYR6E"/>
+	</application>
+</manifest>
+

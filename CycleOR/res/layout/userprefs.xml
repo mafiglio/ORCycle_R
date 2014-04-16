@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/baseContainer">
+	<LinearLayout
+	    style="@style/contentContainer"
+		android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/standard_padding"
+            android:text="@string/prefs_welcome"/>
+
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/age"/>
+            <Spinner
+                android:id="@+id/ageSpinner"
+                style="@style/user_prefs_spinner"
+                android:entries="@array/ageArray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/ethnicity"/>
+            
+            <Spinner
+                style="@style/user_prefs_spinner"
+                android:id="@+id/ethnicitySpinner"
+                android:entries="@array/ethnicityArray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/income"/>
+            <Spinner
+                style="@style/user_prefs_spinner"
+                android:id="@+id/incomeSpinner"
+                android:entries="@array/incomeArray"/>
+        </LinearLayout>
+        
+		<LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/gender"/>
+
+            <RadioGroup
+                android:id="@+id/genderGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <RadioButton
+                    android:id="@+id/ButtonMale"
+                    android:text="@string/gender_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/standard_padding"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+                
+                <RadioButton
+                    android:id="@+id/ButtonFemale"
+					android:text="@string/gender_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+            </RadioGroup>
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/frequency"/>
+            <Spinner
+                style="@style/user_prefs_spinner"
+                android:id="@+id/frequencySpinner"
+                android:entries="@array/frequency_array"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/rider_type"/>
+            <Spinner
+                style="@style/user_prefs_spinner"
+                android:id="@+id/ridertypeSpinner"
+                android:entries="@array/ridertypeArray"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/user_pref_group">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:text="@string/how_long"/>
+            <Spinner
+                style="@style/user_prefs_spinner"
+                android:id="@+id/riderhistorySpinner"
+                android:entries="@array/riderhistoryArray"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/user_pref_group"
+            android:baselineAligned="false">
+            
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/user_prefs_label"
+                    android:text="@string/home_zip"
+                    android:layout_width="wrap_content"/>
+				<EditText
+				    style="@style/user_prefs_input"
+                    android:id="@+id/TextZipHome"
+					android:hint="@string/home"
+                    android:inputType="number"
+                    android:nextFocusDown="@+id/TextZipWork"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/user_prefs_label"
+                    android:text="@string/work_zip"
+                    android:layout_width="wrap_content"/>
+				<EditText
+				    style="@style/user_prefs_input"
+                    android:id="@+id/TextZipWork"
+					android:hint="@string/work"
+                    android:inputType="number"
+                    android:nextFocusDown="@+id/TextZipSchool"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/user_prefs_label"
+                    android:text="@string/school_zip"
+                    android:layout_width="wrap_content"/>
+				<EditText
+				    style="@style/user_prefs_input"
+                    android:id="@+id/TextZipSchool"
+					android:hint="@string/school"
+                    android:inputType="number"
+                    android:nextFocusDown="@+id/TextEmail"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            style="@style/user_pref_group"
+            android:orientation="vertical">
+            
+            <TextView
+                style="@style/user_prefs_label"
+                android:layout_width="match_parent"
+                android:text="@string/email_for_updates"/>
+            
+			<EditText
+			    style="@style/user_prefs_input"
+				android:id="@+id/TextEmail"
+				android:hint="@string/email_address"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

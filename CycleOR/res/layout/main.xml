@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/baseContainer"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        style="@style/contentContainer"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <Button
+            android:id="@+id/ButtonStart"
+            android:background="@color/accent_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bike"
+            android:padding="@dimen/standard_padding"
+            android:drawablePadding="@dimen/standard_padding"
+            android:textColor="@android:color/white"
+            android:text="@string/startNewTrip"
+			android:textStyle="bold"/>
+        
+		<TextView
+		    android:id="@+id/TextViewPreviousTrips"
+		    android:text="@string/previous_trips"
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="@dimen/standard_padding"/>
+	</LinearLayout>	
+	
+	<ListView
+		android:id="@+id/ListSavedTrips"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"/>
+</LinearLayout>

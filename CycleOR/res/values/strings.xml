@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">OregonTracks</string>
+	<string name="previous_trips">Saved Trips:</string>
+	<string name="startNewTrip">Start Trip!</string>
+	<string name="pauseButtonLabel">Pause</string>
+	<string name="finishedButtonLabel">Finish</string>
+	
+	<string name="enterTripInfo">And add any comments about your trip here</string>
+	<string name="promptPurpose">Select the main purpose of this trip</string>
+	<string name="uploadProgressTitle">Sending…</string>
+	<string name="uploadProgressMessage">Sending your trip.\n\nThanks for using Oregon Tracks!</string>
+	
+	<string-array name="ageArray">
+		<item></item>
+		<item>Less than 18</item>
+		<item>18–24</item>
+		<item>25–34</item>
+		<item>35–44</item>
+		<item>45–54</item>
+		<item>55–64</item>
+		<item>65+</item>
+	</string-array>
+	
+	<string-array name="ethnicityArray">
+		<item></item>
+		<item>White</item>
+		<item>African American</item>
+		<item>Asian</item>
+		<item>Native American</item>
+		<item>Pacific Islander</item>
+		<item>Multi-racial</item>
+		<item>Hispanic / Mexican / Latino</item>
+		<item>Other</item>
+	</string-array>
+	
+	<string-array name="incomeArray">
+		<item></item>
+		<item>Less than $20,000</item>
+		<item>$20,000 to $39,999</item>
+		<item>$40,000 to $59,999</item>
+		<item>$60,000 to $74,999</item>
+		<item>$75,000 to $99,999</item>
+		<item>$100,000 or greater</item>
+	</string-array>
+	
+	<string-array name="ridertypeArray">
+		<item></item>
+		<item><![CDATA[Strong & fearless]]></item>
+		<item><![CDATA[Enthused & confident]]></item>
+		<item>Comfortable, but cautious</item>
+		<item>Interested, but concerned</item>
+	</string-array>
+	
+	<string-array name="riderhistoryArray">
+		<item></item>
+		<item>Since childhood</item>
+		<item>Several years</item>
+		<item>One year or less</item>
+		<item>Just trying it out / just started</item>
+	</string-array>
+	
+	<string name="prefs_welcome">Thanks for using OregonTracks! Please enter your user details here. It\'s optional, anonymous, and will really help us understand different people\'s biking preferences.</string>
+	<string name="age">Age</string>
+	
+	
+	<string name="ethnicity">Ethnicity</string>
+	<string name="income">Home Income</string>
+	<string name="gender_male">Male</string>
+	<string name="gender_female">Female</string>
+	<string name="gender">Gender</string>
+	<string name="frequency">Cycling Frequency:</string>
+
+	<string name="frequency_less_month">Less than once a month</string>
+	<string name="frequency_several_month">Several times a month</string>
+	<string name="frequency_several_weekly">Several times per week</string>
+	<string name="frequency_daily">Daily</string>
+	
+	<string-array name="frequency_array">
+	    <item></item>
+	    <item>@string/frequency_less_month</item>
+	    <item>@string/frequency_several_month</item>
+	    <item>@string/frequency_several_weekly</item>
+	    <item>@string/frequency_daily</item>
+	</string-array>
+	
+	<string name="rider_type">What kind of rider are you?</string>
+	<string name="how_long">How long have you been a cyclist?</string>
+	<string name="home">Home</string>
+	<string name="home_zip">Home ZIP</string>
+	<string name="work">Work</string>
+	<string name="work_zip">Work ZIP</string>
+	<string name="school">School</string>
+	<string name="school_zip">School ZIP</string>
+	<string name="email_for_updates">Email Address: for news and updates!!</string>
+	<string name="email_address">Email Address</string>
+	<string name="save">Save</string>
+	<string name="placeholder">placeholder</string>
+	<string name="submit">Submit</string>
+	<string name="discard">Discard</string>
+	<string name="enter_info">Please enter your user info&#8230;</string>
+	<string name="enter_comments">Comments about your trip</string>
+	<string name="finished_recording">Finished recording.</string>
+	<string name="points_collected">Points collected:</string>
+	<string name="zero_points_collected">Points collected: 0</string>
+	<string name="distance">Distance:</string>
+	<string name="time_elapsed">Time Elapsed:</string>
+	<string name="zero">0</string>
+	<string name="zero_time">0:00:00</string>
+	<string name="zero_mph">0 mph</string>
+	<string name="current_speed">Current Speed:</string>
+	<string name="max_speed">Max Speed:</string>
+	<string name="average_speed">Average Speed:</string>
+	
+	<string name="notification_title">OregonTracks - Recording</string>
+	<string name="notification_subtitle">Tap to see your ongoing trip</string>
+	<string name="recording">Recording&#8230;</string>
+	<string name="still_recording">Still recording (%d min)</string>
+	
+	<string name="post_url">http://rtstage.nevadabike.org/post/</string>
+	
+	<string name="submitting">Submitting trip. Thanks for using OregonTracks!</string>
+	<string name="submit_success">Trip uploaded successfully.</string>
+	<string name="submit_fail">OregonTracks couldn\'t upload the trip, and will retry when your next trip is completed.</string>
+	
+	<string name="discarded">Trip discarded.</string>
+	<string name="select_purpose">You must select a trip purpose before submitting! Choose from the purposes above.</string>
+	
+	<string name="preferences_saved">User preferences saved.</string>
+	
+	<string name="help_faq">Help and FAQ</string>
+	<string name="help_url">http://renotracks.nevadabike.org/RenoTrackshelp.html</string>
+	<string name="edit_user_info">Edit User Info</string>
+	
+	<string name="activity_recording_title">OregonTracks</string>
+	<string name="recording_title">OregonTracks - Recording&#8230;</string>
+	<string name="paused_title">OregonTracks - Recording&#8230;</string>
+	
+	<string name="pause">Pause</string>
+	<string name="resume">Resume</string>
+	<string name="stop">Stop</string>
+	
+	<string name="trip_purpose">Trip Purpose</string>
+	<string name="select_trip_purpose">Please select a trip purpose</string>
+	
+	<string name="trip_purpose_commute">Commute</string>
+	<string name="trip_purpose_school">School</string>
+	<string name="trip_purpose_work_rel">Work-Related</string>
+	<string name="trip_purpose_exercise">Exercise</string>
+	<string name="trip_purpose_social">Social</string>
+	<string name="trip_purpose_shopping">Shopping</string>
+	<string name="trip_purpose_errand">Errand</string>
+	<string name="trip_purpose_other">Other</string>
+	
+	<string name="trip_purpose_commute_details"><b>Commute:</b> this bike trip was primarily to get between home and your main workplace.</string>
+	<string name="trip_purpose_school_details"><b>School:</b> this bike trip was primarily to go to or from school or college.</string>
+	<string name="trip_purpose_work_rel_details"><b>Work-Related:</b> this bike trip was primarily to go to or from a business related meeting, function, or work-related errand for your job.</string>
+	<string name="trip_purpose_exercise_details"><b>Exercise:</b> this bike trip was primarily for exercise, or biking for the sake of biking.</string>
+	<string name="trip_purpose_social_details"><b>Social:</b> this bike trip was primarily for going to or from a social activity, e.g. at a friend\'s house, the park, a restaurant, the movies.</string>
+	<string name="trip_purpose_shopping_details"><b>Shopping:</b> this bike trip was primarily to purchase or bring home goods or groceries.</string>
+	<string name="trip_purpose_errand_details"><b>Errand:</b> this bike trip was primarily to attend to personal business such as banking, a doctor  visit, going to the gym, etc.</string>
+	<string name="trip_purpose_other_details"><b>Other:</b> if none of the other reasons applied to this trip, you can enter comments below to tell us more.</string>
+	
+	<string name="note_note_asset">Note this asset</string>
+	<string name="note_water_fountain">Water fountain</string>
+	<string name="note_secret_passage">Secret passage</string>
+	<string name="note_public_restroom">Public restroom</string>
+	<string name="note_bike_shop">Bike shop</string>
+	<string name="note_bike_rack">Bike parking</string>
+	<string name="note_misc">&#8230;</string>
+	<string name="note_pavement_issue">Pavement issue</string>
+	<string name="note_traffic_signal">Inadequate traffic signal</string>
+	<string name="note_enforcement">Enforcement issue</string>
+	<string name="note_needs_bike_rack">Need bike parking</string>
+	<string name="note_bike_lane_issue">Bike lane issue</string>
+	<string name="note_note_issue">Note this issue</string>
+	
+	<string name="note_note_asset_details">Anything else we should map to help fellow cyclists? Share the details.</string>
+	<string name="note_water_fountain_details">Here\'s a spot to fill your water bottle&#8230; stay hydrated!</string>
+	<string name="note_secret_passage_details">Here\'s an access way under the tracks, through a park, onto a trail, or over a ravine. </string>
+	<string name="note_public_restroom_details">Here\'s a spot with public restroom facilities.</string>
+	<string name="note_bike_shop_details">Need a quick fix to get back in the saddle? Here\'s a bicycle shop to help. </string>
+	<string name="note_bike_rack_details">Here\'s a safe and secure place to park bicycles. Please only include racks or other objects intended for bikes.</string>
+	<string name="note_misc_details">Anything notab\le about this spot?</string>
+	<string name="note_pavement_issue_details">Here\'s a spot where the pavement needs to be repaired. This could be a pothole, rough pavement, excessive gravel in the road, a problematic sewer grate, etc.</string>
+	<string name="note_traffic_signal_details">Here\'s a signal that you can\'t activate with your bike.</string>
+	<string name="note_enforcement_details">The bike lane is always blocked here, cars disobey "no right on red"&#8230; or anything else where enforcement can help make cycling safer. </string>
+	<string name="note_needs_bike_rack_details">You wish you had a bike rack at this spot to securely park your bike.</string>
+	<string name="note_bike_lane_issue_details">The bike lane ends abruptly here or is too narrow to safely ride in.</string>
+	<string name="note_note_issue_details">Anywhere else in need of improvement:want a sharrow, sign, or a bike lane? Share the details.</string>
+	
+	<string name="gps_disabled">Your phone\'s GPS is disabled. OregonTracks needs GPS to determine your location.\n\nGo to System Settings now to enable GPS?</string>
+	<string name="welcome_message">Please enter your personal details so we can learn a bit about you.\n\nThen, try to use OregonTracks every time you ride. Your trip routes will be sent to the State of Oregon so we can plan for better biking!\n\nThanks,\nThe OregonTracks team</string>
+	<string name="welcome_title">Welcome to OregonTracks!</string>
+	<string name="gps_settings">GPS Settings&#8230;</string>
+	<string name="okay">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="trips_removed"> bad trip(s) removed.</string>
+	<string name="saved_trips_0">No saved trips.</string>
+	<string name="saved_trips_1">1 saved trip:</string>
+	<string name="saved_trips_X"> saved trips:</string>
+	<string name="retry_upload">Retry Upload</string>
+	<string name="delete">Delete</string>
+	
+	<string name="gps_restarted">GPS restarted. It may take a moment to resync.</string>
+	<string name="recording_paused">Recording paused; GPS now offline</string>
+	<string name="no_gps_data">No GPS data acquired; nothing to submit.</string>
+	<string name="data_points_received"> data points received&#8230;</string>
+	<string name="waiting_gps_fix">Waiting for GPS fix&#8230;</string>
+</resources>

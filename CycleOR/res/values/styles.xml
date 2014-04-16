@@ -1,0 +1,46 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+    </style>
+    
+	<style name="AppActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+		<item name="android:background">@color/accent_color</item>
+		<item name="android:icon">@drawable/logo</item>  
+	</style>
+	
+	<style name="baseContainer">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+	
+	<style name="contentContainer" parent="baseContainer">
+		<item name="android:padding">@dimen/standard_padding</item>
+	</style>
+	
+	<style name="user_pref_group">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:layout_marginBottom">@dimen/standard_padding</item>
+	</style>
+	
+	<style name="user_prefs_label">
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+	    <item name="android:layout_width">@dimen/user_pref_label</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginRight">@dimen/standard_padding</item>
+	</style>
+	
+	<style name="user_prefs_spinner">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="user_prefs_input">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:lines">1</item>
+	</style>
+</resources>
