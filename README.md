@@ -1,4 +1,4 @@
 CycleOR
 =======
 
-bike app for ODOT
+bike app for Oregon
